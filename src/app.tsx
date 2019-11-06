@@ -37,12 +37,6 @@ const App: () => React$Node = () => {
                                 screen and then come back to see your edits.
                             </Text>
                         </View>
-                        <View style={styles.sectionContainer}>
-                            <Text style={styles.sectionTitle}>See Your Changes</Text>
-                            <Text style={styles.sectionDescription}>
-                                <ReloadInstructions />
-                            </Text>
-                        </View>
                         <LearnMoreLinks />
                     </View>
                 </ScrollView>
