@@ -5,21 +5,19 @@
  * @format
  * @flow
  */
-
+<script src="http://192.168.3.28:8097"></script>
 import React from 'react';
 import {
   SafeAreaView,
   StatusBar,
 } from 'react-native';
-import { Hello } from './src/components/Hello'
+import MyPager from './src/components/Swipers'
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="light-content" />
-      <SafeAreaView>
-        <Hello name="Sara" enthusiasmLevel={1} />
-      </SafeAreaView>
+      <MyPager />
     </>
   );
 };
